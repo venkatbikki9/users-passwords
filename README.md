@@ -22,9 +22,9 @@ INPUT FILES :-
 2.users.text
 
 To Run the script:-
-1. Save the scriptwith vi create_users.sh
-2. Make it executable: chmod +x create_users.sh
-3. Run with your input file: sudo ./create_users.sh users.txt
+1. Save the scriptwith vi users.sh
+2. Make it executable: chmod +x users.sh
+3. Run with your input file: sudo bash users.sh users.txt
 4. To check logs: sudo tail -n 20 /var/log/user_management.log
 5. To check generated passwords:  sudo cat /var/secure/user_passwords.csv
 6. <img width="473" height="61" alt="Capture" src="https://github.com/user-attachments/assets/bd0e60fb-a07b-4ca2-8c86-9b4b6b7e6f8a" />
